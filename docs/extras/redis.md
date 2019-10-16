@@ -9,7 +9,7 @@ To enable Redis in Drupal VM:
 
 ```php
 // Make redis the default cache class.
-$settings['cache']['default'] = 'cache.backend.redis'
+$settings['cache']['default'] = 'cache.backend.redis';
 ```
 
 There's a lot more configuration available and the best resource is generally the [Redis module's README](http://cgit.drupalcode.org/redis/tree/README.md).
